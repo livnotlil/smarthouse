@@ -19,11 +19,11 @@ void setup() {
 
   // SD Card initialisation
   Serial.print("Initializing SD card...");
-  if (!SD.begin(SDpin)) {
-    Serial.println("initialization failed!");
-    while (1)
-      ;
-  }
+//  if (!SD.begin(SDpin)) {
+//    Serial.println("initialization failed!");
+//    //while (1)
+//      //;
+//  }
 }
 
 void loop() {
